@@ -12,3 +12,5 @@ will be available to scroll in the Hexchat scroll buffer. Note: the buffer conte
 BSD 2 (simplified) License - feel free to use this for any purpose. There are no guarantees that it will work on your system.
 If your system uses different paths or filenames you may need to tweak the script to suit.
 K. Schwarz (schwar3kat) 20-03-2022
+
+To auto-run the script when you open the server, add "/exec /bin/bash ~/.config/hexchat/scripts/hexchat-armbian-webscroll.sh > /dev/null 2>&1" as a server connect command (assuming your script is in ~/.config/hexchat/scripts).
