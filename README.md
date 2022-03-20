@@ -10,5 +10,5 @@ If the script is run before joining the #armbian channel, then all retrieved cha
 will be available to scroll in the Hexchat scroll buffer. Note: the buffer contents are replaced and the old contents are not recoverable.
 
 BSD 2 (simplified) License - feel free to use this for any purpose. There are no guarantees that it will work on your system.
-If your system uses different paths or filenames you may need to tweek the script to suit.
+If your system uses different paths or filenames you may need to tweak the script to suit.
 K. Schwarz (schwar3kat) 20-03-2022
