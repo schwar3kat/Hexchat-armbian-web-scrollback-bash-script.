@@ -1,7 +1,7 @@
 # Hexchat-armbian-web-scrollback-bash-script.
 This script will replace the IRC scrollback buffer in Hexchat for the #armbian channel with the contents of the logs from irc.armbian.com.
 
-Note: html2text has more than one version. This script uses the standard debian version that can handle utf8. 
+Note: html2text has more than one version. This script uses the standard debian version that can handle utf-8. 
 Developed and tested on Linux Mint 20.2 Xfce, a Debian/Ubuntu 20.04 derivative. The script uses wget, sed, awk, and html2text. 
 Modify the for loop to change the number of days to retrieve. For example "for i in {-5..0}" will retrieve the last five days and today.
 "joined", "quit", "left" and "known as" lines are excluded. 
