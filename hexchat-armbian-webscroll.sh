@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 # This script will replace the IRC scrollback buffer in Hexchat for the #armbian channel with the contents of the logs from irc.armbian.com.
 # Note: html2text has more than one version. This script uses the standard debian version that can handle utf8. 
 # Developed and tested on Linux Mint 20.2 Xfce, a Debian/Ubuntu 20.04 derivative. The script uses wget, sed, awk, and html2text. 
