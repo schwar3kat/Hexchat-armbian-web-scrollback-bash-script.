@@ -1,7 +1,7 @@
 # Hexchat-armbian-web-scrollback-bash-script.
 The hexchat-armbian-webscroll.sh script will replace the IRC scrollback buffer in Hexchat for the #armbian channel with the contents of the logs from irc.armbian.com.
 
-The hexchat-armbian-webscroll-win.cmd script will replace the IRC scrollback buffer in Windows 10 Hexchat for the #armbian channel with the contents of the logs from irc.armbian.com.  It require a remote Linux computer to run the Linux script located in a directory on the Linux computer.  This method requires OpenSSH public key based authentication to the Linux computer configured on your windows 10 computer.
+The hexchat-armbian-webscroll-win.cmd script will replace the IRC scrollback buffer in Windows 10 Hexchat for the #armbian channel with the contents of the logs from irc.armbian.com.  It requires a remote Linux computer to run the Linux script located in a directory on the Linux computer.  This method requires OpenSSH public key based authentication to the Linux computer configured on your windows 10 computer.
 
 Note: html2text has more than one version. This script uses the standard debian version that can handle utf-8. 
 Developed and tested on Linux Mint 20.2 Xfce, a Debian/Ubuntu 20.04 derivative. The script uses wget, sed, awk, and html2text. 
